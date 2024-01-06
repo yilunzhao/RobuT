@@ -8,7 +8,7 @@ pip install -r requirements.txt
 ```
 
 ## RobuT Dataset
-We have released our dataset on [HuggingFace](https://huggingface.co/datasets/yilunzhao). Use the following command to load the dataset (we use `RobuT-WTQ` as an example):
+We have released our dataset on [HuggingFace](https://huggingface.co/datasets/yilunzhao/robut). Use the following command to load the dataset (we use `RobuT-WTQ` as an example):
 ```python
 datasets = load_dataset("yilunzhao/robut", split="wtq")
 ```
