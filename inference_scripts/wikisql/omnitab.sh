@@ -1,5 +1,3 @@
-huggingface-cli login --token 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
-
 export CUDA_VISIBLE_DEVICES=2
 export PYTHONPATH=$(pwd)
 dataset_name="yilunzhao/robut"
